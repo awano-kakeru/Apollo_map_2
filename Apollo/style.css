@@ -1,0 +1,15 @@
+.navbar-nav {
+    gap: 25px;
+}
+
+.title{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 30px;
+    letter-spacing: 4px;
+    color: white;
+    text-shadow:
+        0 0 10px #8ec5ff,
+        0 0 20px #8ec5ff,
+        0 0 40px #8ec5ff;
+}
