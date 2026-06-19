@@ -13,3 +13,9 @@
         0 0 20px #8ec5ff,
         0 0 40px #8ec5ff;
 }
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
