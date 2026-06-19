@@ -19,3 +19,13 @@
         padding: 10px 0;
     }
 }
+/* スマホ・タブレット画面のときのメニュー文字サイズを拡大 */
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        font-size: 2rem !important; /* 文字を大きく（元の約2倍） */
+        font-weight: bold !important; /* 太字にして存在感をアップ */
+        text-align: center !important; /* 中央揃えにして見やすく */
+        margin: 15px 0 !important; /* 上下の間隔を広げて押しやすく */
+        text-shadow: 0 0 10px #8ec5ff; /* タイトルのような光るエフェクト */
+    }
+}
